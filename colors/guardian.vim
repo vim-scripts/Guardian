@@ -1,8 +1,8 @@
 " Vim color file
 " Maintainer: Anders Korte <anderskorte@eml.cc>
-" Last Change: 1 Apr 2005
+" Last Change: 6 Apr 2005
 
-" Guardian color scheme 1.1
+" Guardian color scheme 1.2
 
 " Rich-syntax colors for source editing and other vimming.
 
@@ -14,8 +14,8 @@ syntax reset
 
 hi Cursor      guibg=#cc4455  guifg=white    gui=bold ctermbg=4 ctermfg=15
 hi link CursorIM Cursor
-hi Normal      guibg=#443322  guifg=white    gui=none ctermbg=0 ctermfg=15
-hi NonText     guibg=#445566  guifg=#ffeecc  gui=bold ctermbg=1 ctermfg=14
+hi Normal      guibg=#332211  guifg=white    gui=none ctermbg=0 ctermfg=15
+hi NonText     guibg=#445566  guifg=#ffeecc  gui=bold ctermbg=8 ctermfg=14
 hi Visual      guibg=#557799  guifg=white    gui=none ctermbg=9 ctermfg=15
 
 hi Linenr      guibg=bg	      guifg=#aaaaaa  gui=none ctermbg=bg ctermfg=7
@@ -45,7 +45,7 @@ hi DiffText    guibg=#884444  guifg=fg	  gui=bold ctermbg=4 ctermfg=fg
 
 " Colors for Syntax Highlighting.
 
-hi Comment  guibg=#445566  guifg=#dddddd  gui=none    ctermbg=8	  ctermfg=7
+hi Comment  guibg=#334455  guifg=#dddddd  gui=none    ctermbg=8	  ctermfg=7
 
 hi Constant    guibg=bg	   guifg=white	  gui=bold    ctermbg=8	  ctermfg=15
 hi String      guibg=bg	   guifg=#ffffcc  gui=italic  ctermbg=bg  ctermfg=14
@@ -60,12 +60,12 @@ hi Statement   guibg=bg    guifg=#ffffcc  gui=bold    ctermbg=bg  ctermfg=14
 
 hi Conditional guibg=bg    guifg=#ff6666  gui=bold    ctermbg=bg  ctermfg=12
 hi Repeat      guibg=bg    guifg=#ff9900  gui=bold    ctermbg=4   ctermfg=14
-hi Label       guibg=bg    guifg=#ffccff  gui=bold    ctermbg=8   ctermfg=13
+hi Label       guibg=bg    guifg=#ffccff  gui=bold    ctermbg=bg   ctermfg=13
 hi Operator    guibg=bg    guifg=#cc9966  gui=bold    ctermbg=6   ctermfg=15
 hi Keyword     guibg=bg	   guifg=#66ffcc  gui=bold    ctermbg=bg  ctermfg=10
 hi Exception   guibg=bg	   guifg=#66ffcc  gui=bold    ctermbg=bg  ctermfg=10
 
-hi PreProc	  guibg=bg	 guifg=#ffcc99	gui=bold ctermbg=2  ctermfg=12
+hi PreProc	  guibg=bg	 guifg=#ffcc99	gui=bold ctermbg=4  ctermfg=14
 hi Include	  guibg=bg	 guifg=#99cc99	gui=bold ctermbg=bg ctermfg=10
 hi link Define	  Include
 hi link Macro	  Include
@@ -80,7 +80,7 @@ hi Special	  guibg=bg	 guifg=#bbddff	gui=bold    ctermbg=1	ctermfg=15
 hi SpecialChar	  guibg=bg	 guifg=#bbddff	gui=bold    ctermbg=1	ctermfg=15
 hi Tag		  guibg=bg	 guifg=#bbddff	gui=bold    ctermbg=1	ctermfg=15
 hi Delimiter	  guibg=bg	 guifg=fg	gui=bold    ctermbg=1	ctermfg=fg
-hi SpecialComment guibg=#445566	 guifg=#dddddd	gui=italic  ctermbg=1	ctermfg=15
+hi SpecialComment guibg=#334455	 guifg=#dddddd	gui=italic  ctermbg=1	ctermfg=15
 hi Debug	  guibg=bg	 guifg=#ff9999	gui=none    ctermbg=8	ctermfg=12
 
 hi Underlined guibg=bg guifg=#99ccff gui=underline ctermbg=bg ctermfg=9 cterm=underline
